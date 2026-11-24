@@ -1,0 +1,117 @@
+{
+  "source_hashes": {
+    "dataset.jsonl": "c92191ff4a2378563e4ac991b07fba66f9cb55f539ac2c5e081deb1aadb7d87f",
+    "runs/jev/verdicts.jsonl": "569df163a891fa7cf4d806a3e79aa8cecb977dfc8f49b5504118e5a804f1d202",
+    "runs/clef/verdicts.jsonl": "9545f49669f773565acb39ee9f06b6dd83f7010200931203871d76f97882db1c"
+  },
+  "cohort_matrices": {
+    "agreement": {
+      "jev": {
+        "authorized": {
+          "authorized": 8272,
+          "unauthorized": 169,
+          "insufficient_evidence": 59
+        },
+        "unauthorized": {
+          "authorized": 109,
+          "unauthorized": 1053,
+          "insufficient_evidence": 1
+        },
+        "insufficient_evidence": {
+          "authorized": 0,
+          "unauthorized": 3,
+          "insufficient_evidence": 0
+        }
+      },
+      "clef": {
+        "authorized": {
+          "authorized": 6711,
+          "unauthorized": 1238,
+          "insufficient_evidence": 551
+        },
+        "unauthorized": {
+          "authorized": 747,
+          "unauthorized": 349,
+          "insufficient_evidence": 67
+        },
+        "insufficient_evidence": {
+          "authorized": 3,
+          "unauthorized": 0,
+          "insufficient_evidence": 0
+        }
+      }
+    },
+    "disagreement": {
+      "jev": {
+        "authorized": {
+          "authorized": 341,
+          "unauthorized": 139,
+          "insufficient_evidence": 27
+        },
+        "unauthorized": {
+          "authorized": 130,
+          "unauthorized": 36,
+          "insufficient_evidence": 5
+        },
+        "insufficient_evidence": {
+          "authorized": 10,
+          "unauthorized": 3,
+          "insufficient_evidence": 0
+        }
+      },
+      "clef": {
+        "authorized": {
+          "authorized": 280,
+          "unauthorized": 177,
+          "insufficient_evidence": 50
+        },
+        "unauthorized": {
+          "authorized": 112,
+          "unauthorized": 49,
+          "insufficient_evidence": 10
+        },
+        "insufficient_evidence": {
+          "authorized": 10,
+          "unauthorized": 3,
+          "insufficient_evidence": 0
+        }
+      }
+    },
+    "sample": {
+      "jev": {
+        "authorized": {
+          "authorized": 29,
+          "unauthorized": 0,
+          "insufficient_evidence": 1
+        },
+        "unauthorized": {
+          "authorized": 2,
+          "unauthorized": 17,
+          "insufficient_evidence": 0
+        },
+        "insufficient_evidence": {
+          "authorized": 0,
+          "unauthorized": 1,
+          "insufficient_evidence": 0
+        }
+      },
+      "clef": {
+        "authorized": {
+          "authorized": 21,
+          "unauthorized": 5,
+          "insufficient_evidence": 4
+        },
+        "unauthorized": {
+          "authorized": 14,
+          "unauthorized": 3,
+          "insufficient_evidence": 2
+        },
+        "insufficient_evidence": {
+          "authorized": 1,
+          "unauthorized": 0,
+          "insufficient_evidence": 0
+        }
+      }
+    }
+  }
+}

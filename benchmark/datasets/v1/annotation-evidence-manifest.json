@@ -1,0 +1,204 @@
+{
+  "dataset_version": "v1",
+  "records": 10357,
+  "labelled_dataset_sha256": "c92191ff4a2378563e4ac991b07fba66f9cb55f539ac2c5e081deb1aadb7d87f",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 839,
+      "sha256": "a5d017c6a97907ba20c36a5c9827e491e9ac84d27c086cbe35712878ff2a00f2"
+    },
+    {
+      "path": "annotation-report.json",
+      "size": 13555,
+      "sha256": "59926ac34cf372adcad03d1565b68131a277215669a84520f2c310dcd3c38662",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/annotation-report.json"
+    },
+    {
+      "path": "combined/dataset.jsonl",
+      "size": 260598700,
+      "sha256": "726b1151fd578d5ba093c99c06ad6c5f49507ec6a573ee9632bbc552bc0cc812",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/combined/dataset.jsonl"
+    },
+    {
+      "path": "combined/merge.json",
+      "size": 61540,
+      "sha256": "5f3a6353b4b817be63846a0797fcb43bdc72ba51a8c41649e9ab1b199fba1d2f",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/combined/merge.json"
+    },
+    {
+      "path": "config/guards.toml",
+      "size": 392,
+      "sha256": "24a8a2c275774c3b4d5c92458bee28d6161f0bc6274bba6512067ec368745cf4",
+      "original_path": "config/guards.toml"
+    },
+    {
+      "path": "config/models.toml",
+      "size": 698,
+      "sha256": "69370ce15bfd6720e6d0f0eba8db0a8f65968c8b6c8c11dded84cf51aa2949d5",
+      "original_path": "config/models.toml"
+    },
+    {
+      "path": "config/selection.toml",
+      "size": 308,
+      "sha256": "deb2fedbe714f4d16111aeed8293c0ea1a321ff1f9a2b068be51b6951cab07fa",
+      "original_path": "config/selection.toml"
+    },
+    {
+      "path": "cost-supplement.json",
+      "size": 1720,
+      "sha256": "ad78e36bb02e476b68d6b8f48c0b641b60dddb40a0c2a9d37d19ef4e8628033d",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/cost-supplement.json"
+    },
+    {
+      "path": "definitions.json",
+      "size": 24235,
+      "sha256": "830e9d6fb3ae8ef7ff846acf30c8d6a552c8fbd25f454866e9946d23cc7c4964",
+      "original_path": "data/milestone5-fresh-2026-10-07/definitions.json"
+    },
+    {
+      "path": "followup/grok/attempts.jsonl",
+      "size": 1413275,
+      "sha256": "c1afd2696eca0958e51a482d143625bee09caad16b223186bd00d49127c41b8a",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/grok/attempts.jsonl"
+    },
+    {
+      "path": "followup/grok/dataset.jsonl",
+      "size": 4295477,
+      "sha256": "a55f45b6895cbcca5c5b4a1c7eb3d6107ae923149b68ec7b73059ae231531a10",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/grok/dataset.jsonl"
+    },
+    {
+      "path": "followup/grok/dispatches.jsonl",
+      "size": 33791,
+      "sha256": "cb29fa6101cda5af087fa75025a1400377ca33551ead89238ab18e1738495dae",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/grok/dispatches.jsonl"
+    },
+    {
+      "path": "followup/grok/run.json",
+      "size": 25542,
+      "sha256": "6f6759b4139ffe4758e8904208d04b0b3a22e79f92ec2176ca51a5856bbbd624",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/grok/run.json"
+    },
+    {
+      "path": "followup/luna/attempts.jsonl",
+      "size": 2607,
+      "sha256": "6adceb48d1b5ae7dced7520d365adea1bff63978c358717a2e4530190b54da06",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/luna/attempts.jsonl"
+    },
+    {
+      "path": "followup/luna/dataset.jsonl",
+      "size": 13071,
+      "sha256": "e5b0434cb5502ea805595895a7be9a8083fed04e6f0d502e01eb7f927c104b19",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/luna/dataset.jsonl"
+    },
+    {
+      "path": "followup/luna/dispatches.jsonl",
+      "size": 194,
+      "sha256": "5af2f0c46f0c23de44c1ad99bab2a8bda539148cf372370d3465ced7e04d715c",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/luna/dispatches.jsonl"
+    },
+    {
+      "path": "followup/luna/run.json",
+      "size": 1633,
+      "sha256": "a9806f858661a7d2ebf68815f2573ce0275fbbd6ed50a9f6752f37b22a8b3828",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/luna/run.json"
+    },
+    {
+      "path": "initial/attempts.jsonl",
+      "size": 103820615,
+      "sha256": "a212a736b7e841a4bed1b8f70412588416b38fe180a090a423efccc220cf444e",
+      "original_path": "data/milestone7-2026-10-08/annotation/attempts.jsonl"
+    },
+    {
+      "path": "initial/dataset.jsonl",
+      "size": 259514461,
+      "sha256": "7dcbad5591e706493a913b7f7e27f691d03af647fa2c0665176116b49838da73",
+      "original_path": "data/milestone7-2026-10-08/annotation/dataset.jsonl"
+    },
+    {
+      "path": "initial/dispatches.jsonl",
+      "size": 3915044,
+      "sha256": "fca0f9c265430b450968c5322e0ae7a72097c77eef449dd73284e2f553b45598",
+      "original_path": "data/milestone7-2026-10-08/annotation/dispatches.jsonl"
+    },
+    {
+      "path": "initial/run.json",
+      "size": 2748002,
+      "sha256": "820e62fc6f44fb254ddc15be33af008c8e84f5d37f0b2e8e1f98366871ecc0ed",
+      "original_path": "data/milestone7-2026-10-08/annotation/run.json"
+    },
+    {
+      "path": "prompts/annotation-rubric-v1.txt",
+      "size": 1910,
+      "sha256": "bfd30603a39134309eefbcdf21286caf061dd6ec20b1cba3c4fe5dbccee9e411",
+      "original_path": "docs/prompts/annotation-rubric-v1.txt"
+    },
+    {
+      "path": "prompts/authorization-policy-v1.txt",
+      "size": 3845,
+      "sha256": "3eb9d27c660887a0fb9599c5fe08635a96321865c25eea3cf74c537cad84fd35",
+      "original_path": "docs/prompts/authorization-policy-v1.txt"
+    },
+    {
+      "path": "prompts/guard-v1.json",
+      "size": 1532,
+      "sha256": "4df68a2ce1ea21185ce2e276a8120c062f6ee5d04043d1cceb88d6950ecb94ad",
+      "original_path": "docs/prompts/guard-v1.json"
+    },
+    {
+      "path": "review/grouped/groups.json",
+      "size": 825479,
+      "sha256": "aa911f1509fc10f116aade587b33c2bf5fa1ec49aee85154e96f0dc197c4e619",
+      "original_path": "data/milestone7-grouped-review-2026-10-13/groups.json"
+    },
+    {
+      "path": "review/grouped/reviews.txt",
+      "size": 57325,
+      "sha256": "c91d06be04b7c9e4351a16d55af5035d8b10cf9bfad92021aaff49aac07f6f7c",
+      "original_path": "data/milestone7-grouped-review-2026-10-13/grouped-human-review.txt"
+    },
+    {
+      "path": "review/initial/agreements.txt",
+      "size": 1261,
+      "sha256": "4a33705cae84a5c215cae9cf5964c39ae09f8cb61ca6e953c163d7a4abf1ad7d",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/human-review-agreements-sample.txt"
+    },
+    {
+      "path": "review/initial/dataset.jsonl",
+      "size": 260611398,
+      "sha256": "b5c0dff6312529b74dad12c0559126bc174db7c1dc778baf51661943bb775688",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/human-reviewed/dataset.jsonl"
+    },
+    {
+      "path": "review/initial/disagreements.txt",
+      "size": 3797,
+      "sha256": "6486f5e7c9b08b182b98aed2661c2a4128d8803e81e942f84a96350dbfa08b81",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/human-review-disagreements-sample.txt"
+    },
+    {
+      "path": "review/initial/human-reviews.json",
+      "size": 46070,
+      "sha256": "dda48750018c9432f857cc2faaf42199ed727b9e2caef380650e9e1d219ace57",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/human-reviewed/human-reviews.json"
+    },
+    {
+      "path": "review/initial/selection.json",
+      "size": 99242,
+      "sha256": "acbc1f33e1205c9def87d7030e845d89ef709e3b394e2e564dc3eac6a806c778",
+      "original_path": "data/milestone7-failure-retry-2026-10-09/audit-selection.json"
+    },
+    {
+      "path": "review/remaining/groups.json",
+      "size": 196961,
+      "sha256": "4d1488ca435587f5ce934f645ddf96173f120f8e3ee1a769093df7bc83ecd70d",
+      "original_path": "data/milestone7-remaining-review-2026-10-27/groups.json"
+    },
+    {
+      "path": "review/remaining/reviews.txt",
+      "size": 22450,
+      "sha256": "5856856b03d0b63c16f41fb2282d762d571ad4654d77db8898025d4e8645c276",
+      "original_path": "data/milestone7-remaining-review-2026-10-27/remaining-human-review.txt"
+    }
+  ]
+}

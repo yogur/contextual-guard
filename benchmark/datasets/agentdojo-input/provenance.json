@@ -1,0 +1,9 @@
+{
+  "source_actor_revision": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "source_log": "banking/user_task_0/direct/injection_task_0.json",
+  "sha256": {
+    "definitions.json": "830e9d6fb3ae8ef7ff846acf30c8d6a552c8fbd25f454866e9946d23cc7c4964",
+    "runs/banking/user_task_0/direct/injection_task_0.json": "cae57b46cbb1cf1682ddb596d58a6b0348444a090b57bcb1c49c3be4ca582561"
+  },
+  "purpose": "One original native trajectory and matching producer definitions for offline preparation checks; not new inference"
+}

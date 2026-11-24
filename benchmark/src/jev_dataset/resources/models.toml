@@ -1,0 +1,21 @@
+# Independent annotation routes; no automatic fallback. Guards use guards.toml.
+# Runtime uses LiteLLM's bedrock route and native Responses API.
+[annotation]
+provider = "bedrock"
+model = "global.xai.grok-4.7"
+region = "us-east-1"
+api_base = "https://bedrock-runtime.{region}.amazonaws.com/openai/v1"
+service_tier = "flex"
+reasoning = "low"
+max_tokens = 4096
+timeout = 180
+# aws_profile = "your-profile"  # Omit to use the normal AWS credential chain.
+
+# Independent checker; reuse the validated Mantle/low settings.
+[quality]
+provider = "bedrock_mantle"
+model = "openai.gpt-6-luna"
+region = "us-east-1"
+api_base = "https://bedrock-mantle.{region}.api.aws/openai/v1"
+reasoning = "low"
+timeout = 120

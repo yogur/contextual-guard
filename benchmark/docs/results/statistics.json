@@ -1,0 +1,3438 @@
+{
+  "hashes": {
+    "dataset.jsonl": "c92191ff4a2378563e4ac991b07fba66f9cb55f539ac2c5e081deb1aadb7d87f",
+    "runs/jev/verdicts.jsonl": "569df163a891fa7cf4d806a3e79aa8cecb977dfc8f49b5504118e5a804f1d202",
+    "runs/clef/verdicts.jsonl": "9545f49669f773565acb39ee9f06b6dd83f7010200931203871d76f97882db1c"
+  },
+  "groups": {
+    "all": {
+      "jev": {
+        "n": 10357,
+        "correct": 9734,
+        "matrix": {
+          "authorized": {
+            "authorized": 8639,
+            "unauthorized": 306,
+            "insufficient_evidence": 79
+          },
+          "unauthorized": {
+            "authorized": 220,
+            "unauthorized": 1094,
+            "insufficient_evidence": 12
+          },
+          "insufficient_evidence": {
+            "authorized": 3,
+            "unauthorized": 3,
+            "insufficient_evidence": 1
+          }
+        },
+        "predictions": {
+          "authorized": 8862,
+          "unauthorized": 1403,
+          "insufficient_evidence": 92
+        }
+      },
+      "clef": {
+        "n": 10357,
+        "correct": 7439,
+        "matrix": {
+          "authorized": {
+            "authorized": 7025,
+            "unauthorized": 1402,
+            "insufficient_evidence": 597
+          },
+          "unauthorized": {
+            "authorized": 833,
+            "unauthorized": 413,
+            "insufficient_evidence": 80
+          },
+          "insufficient_evidence": {
+            "authorized": 5,
+            "unauthorized": 1,
+            "insufficient_evidence": 1
+          }
+        },
+        "predictions": {
+          "unauthorized": 1816,
+          "authorized": 7863,
+          "insufficient_evidence": 678
+        }
+      },
+      "reference": {
+        "authorized": 9024,
+        "unauthorized": 1326,
+        "insufficient_evidence": 7
+      },
+      "pair": {
+        "jev_only": 2614,
+        "both_right": 7120,
+        "clef_only": 319,
+        "both_wrong": 304
+      }
+    },
+    "human": {
+      "jev": {
+        "n": 741,
+        "correct": 423,
+        "matrix": {
+          "authorized": {
+            "authorized": 370,
+            "unauthorized": 139,
+            "insufficient_evidence": 28
+          },
+          "unauthorized": {
+            "authorized": 132,
+            "unauthorized": 53,
+            "insufficient_evidence": 5
+          },
+          "insufficient_evidence": {
+            "authorized": 10,
+            "unauthorized": 4,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 512,
+          "unauthorized": 196,
+          "insufficient_evidence": 33
+        }
+      },
+      "clef": {
+        "n": 741,
+        "correct": 353,
+        "matrix": {
+          "authorized": {
+            "authorized": 301,
+            "unauthorized": 182,
+            "insufficient_evidence": 54
+          },
+          "unauthorized": {
+            "authorized": 126,
+            "unauthorized": 52,
+            "insufficient_evidence": 12
+          },
+          "insufficient_evidence": {
+            "authorized": 11,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 66,
+          "unauthorized": 237,
+          "authorized": 438
+        }
+      },
+      "reference": {
+        "unauthorized": 190,
+        "authorized": 537,
+        "insufficient_evidence": 14
+      },
+      "pair": {
+        "both_wrong": 204,
+        "clef_only": 114,
+        "jev_only": 184,
+        "both_right": 239
+      }
+    },
+    "disagreements": {
+      "jev": {
+        "n": 691,
+        "correct": 377,
+        "matrix": {
+          "authorized": {
+            "authorized": 341,
+            "unauthorized": 139,
+            "insufficient_evidence": 27
+          },
+          "unauthorized": {
+            "authorized": 130,
+            "unauthorized": 36,
+            "insufficient_evidence": 5
+          },
+          "insufficient_evidence": {
+            "authorized": 10,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 481,
+          "unauthorized": 178,
+          "insufficient_evidence": 32
+        }
+      },
+      "clef": {
+        "n": 691,
+        "correct": 329,
+        "matrix": {
+          "authorized": {
+            "authorized": 280,
+            "unauthorized": 177,
+            "insufficient_evidence": 50
+          },
+          "unauthorized": {
+            "authorized": 112,
+            "unauthorized": 49,
+            "insufficient_evidence": 10
+          },
+          "insufficient_evidence": {
+            "authorized": 10,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 60,
+          "unauthorized": 229,
+          "authorized": 402
+        }
+      },
+      "reference": {
+        "unauthorized": 171,
+        "authorized": 507,
+        "insufficient_evidence": 13
+      },
+      "pair": {
+        "both_wrong": 201,
+        "clef_only": 113,
+        "jev_only": 161,
+        "both_right": 216
+      }
+    },
+    "sampled_agreements": {
+      "jev": {
+        "n": 50,
+        "correct": 46,
+        "matrix": {
+          "authorized": {
+            "authorized": 29,
+            "unauthorized": 0,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 2,
+            "unauthorized": 17,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 18,
+          "authorized": 31,
+          "insufficient_evidence": 1
+        }
+      },
+      "clef": {
+        "n": 50,
+        "correct": 24,
+        "matrix": {
+          "authorized": {
+            "authorized": 21,
+            "unauthorized": 5,
+            "insufficient_evidence": 4
+          },
+          "unauthorized": {
+            "authorized": 14,
+            "unauthorized": 3,
+            "insufficient_evidence": 2
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 36,
+          "unauthorized": 8,
+          "insufficient_evidence": 6
+        }
+      },
+      "reference": {
+        "unauthorized": 19,
+        "authorized": 30,
+        "insufficient_evidence": 1
+      },
+      "pair": {
+        "jev_only": 23,
+        "both_right": 23,
+        "both_wrong": 3,
+        "clef_only": 1
+      }
+    },
+    "unreviewed": {
+      "jev": {
+        "n": 9616,
+        "correct": 9281,
+        "matrix": {
+          "authorized": {
+            "authorized": 8243,
+            "unauthorized": 169,
+            "insufficient_evidence": 58
+          },
+          "unauthorized": {
+            "authorized": 107,
+            "unauthorized": 1038,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 8350,
+          "unauthorized": 1207,
+          "insufficient_evidence": 59
+        }
+      },
+      "clef": {
+        "n": 9616,
+        "correct": 7036,
+        "matrix": {
+          "authorized": {
+            "authorized": 6690,
+            "unauthorized": 1233,
+            "insufficient_evidence": 547
+          },
+          "unauthorized": {
+            "authorized": 735,
+            "unauthorized": 346,
+            "insufficient_evidence": 65
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1579,
+          "authorized": 7425,
+          "insufficient_evidence": 612
+        }
+      },
+      "reference": {
+        "authorized": 8470,
+        "unauthorized": 1146
+      },
+      "pair": {
+        "jev_only": 2438,
+        "both_right": 6843,
+        "clef_only": 193,
+        "both_wrong": 142
+      }
+    }
+  },
+  "primary_human": {
+    "authorized -> unauthorized": 69,
+    "same": 591,
+    "insufficient_evidence -> unauthorized": 3,
+    "authorized -> insufficient_evidence": 13,
+    "unauthorized -> authorized": 62,
+    "insufficient_evidence -> authorized": 3
+  },
+  "mismatch_decomposition": {
+    "jev": {
+      "primary_matches_human": 221,
+      "guard_matches_human": 53,
+      "neither_matches_human": 14
+    },
+    "clef": {
+      "neither_matches_human": 24,
+      "primary_matches_human": 276,
+      "guard_matches_human": 38
+    }
+  },
+  "annotator_human": {
+    "annotation": 591,
+    "model_review": 148
+  },
+  "domain_human": {
+    "banking": {
+      "jev": {
+        "n": 169,
+        "correct": 86,
+        "matrix": {
+          "authorized": {
+            "authorized": 65,
+            "unauthorized": 15,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 55,
+            "unauthorized": 21,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 9,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 129,
+          "unauthorized": 39,
+          "insufficient_evidence": 1
+        }
+      },
+      "clef": {
+        "n": 169,
+        "correct": 68,
+        "matrix": {
+          "authorized": {
+            "authorized": 33,
+            "unauthorized": 40,
+            "insufficient_evidence": 8
+          },
+          "unauthorized": {
+            "authorized": 32,
+            "unauthorized": 35,
+            "insufficient_evidence": 9
+          },
+          "insufficient_evidence": {
+            "authorized": 9,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 17,
+          "unauthorized": 78,
+          "authorized": 74
+        }
+      }
+    },
+    "slack": {
+      "jev": {
+        "n": 395,
+        "correct": 247,
+        "matrix": {
+          "authorized": {
+            "authorized": 233,
+            "unauthorized": 96,
+            "insufficient_evidence": 27
+          },
+          "unauthorized": {
+            "authorized": 19,
+            "unauthorized": 14,
+            "insufficient_evidence": 5
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 111,
+          "authorized": 252,
+          "insufficient_evidence": 32
+        }
+      },
+      "clef": {
+        "n": 395,
+        "correct": 204,
+        "matrix": {
+          "authorized": {
+            "authorized": 202,
+            "unauthorized": 112,
+            "insufficient_evidence": 42
+          },
+          "unauthorized": {
+            "authorized": 36,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 239,
+          "insufficient_evidence": 42,
+          "unauthorized": 114
+        }
+      }
+    },
+    "travel": {
+      "jev": {
+        "n": 85,
+        "correct": 42,
+        "matrix": {
+          "authorized": {
+            "authorized": 34,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 42,
+            "unauthorized": 8,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 76,
+          "unauthorized": 9
+        }
+      },
+      "clef": {
+        "n": 85,
+        "correct": 33,
+        "matrix": {
+          "authorized": {
+            "authorized": 30,
+            "unauthorized": 4,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 46,
+            "unauthorized": 3,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 7,
+          "authorized": 76,
+          "insufficient_evidence": 2
+        }
+      }
+    },
+    "workspace": {
+      "jev": {
+        "n": 92,
+        "correct": 48,
+        "matrix": {
+          "authorized": {
+            "authorized": 38,
+            "unauthorized": 27,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 16,
+            "unauthorized": 10,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 37,
+          "authorized": 55
+        }
+      },
+      "clef": {
+        "n": 92,
+        "correct": 48,
+        "matrix": {
+          "authorized": {
+            "authorized": 36,
+            "unauthorized": 26,
+            "insufficient_evidence": 3
+          },
+          "unauthorized": {
+            "authorized": 12,
+            "unauthorized": 12,
+            "insufficient_evidence": 2
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 38,
+          "authorized": 49,
+          "insufficient_evidence": 5
+        }
+      }
+    }
+  },
+  "tools_human": {
+    "add_user_to_channel": {
+      "jev": {
+        "n": 48,
+        "correct": 8,
+        "matrix": {
+          "authorized": {
+            "authorized": 8,
+            "unauthorized": 26,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 14,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 26,
+          "authorized": 22
+        }
+      },
+      "clef": {
+        "n": 48,
+        "correct": 15,
+        "matrix": {
+          "authorized": {
+            "authorized": 15,
+            "unauthorized": 18,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 14,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 29,
+          "unauthorized": 18,
+          "insufficient_evidence": 1
+        }
+      }
+    },
+    "append_to_file": {
+      "jev": {
+        "n": 3,
+        "correct": 3,
+        "matrix": {
+          "authorized": {
+            "authorized": 3,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 3
+        }
+      },
+      "clef": {
+        "n": 3,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 2,
+          "authorized": 1
+        }
+      }
+    },
+    "check_restaurant_opening_hours": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "create_calendar_event": {
+      "jev": {
+        "n": 57,
+        "correct": 13,
+        "matrix": {
+          "authorized": {
+            "authorized": 10,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 42,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 4,
+          "authorized": 53
+        }
+      },
+      "clef": {
+        "n": 57,
+        "correct": 12,
+        "matrix": {
+          "authorized": {
+            "authorized": 10,
+            "unauthorized": 0,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 42,
+            "unauthorized": 2,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 2,
+          "authorized": 53,
+          "unauthorized": 2
+        }
+      }
+    },
+    "create_file": {
+      "jev": {
+        "n": 15,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 14,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1,
+          "authorized": 14
+        }
+      },
+      "clef": {
+        "n": 15,
+        "correct": 11,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 2,
+            "unauthorized": 11,
+            "insufficient_evidence": 2
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 2,
+          "unauthorized": 11,
+          "authorized": 2
+        }
+      }
+    },
+    "delete_file": {
+      "jev": {
+        "n": 26,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 25,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 26
+        }
+      },
+      "clef": {
+        "n": 26,
+        "correct": 14,
+        "matrix": {
+          "authorized": {
+            "authorized": 14,
+            "unauthorized": 11,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 15,
+          "unauthorized": 11
+        }
+      }
+    },
+    "get_all_hotels_in_city": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      }
+    },
+    "get_all_restaurants_in_city": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "get_balance": {
+      "jev": {
+        "n": 3,
+        "correct": 3,
+        "matrix": {
+          "authorized": {
+            "authorized": 3,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 3
+        }
+      },
+      "clef": {
+        "n": 3,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 2,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 2,
+          "insufficient_evidence": 1
+        }
+      }
+    },
+    "get_car_price_per_day": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      }
+    },
+    "get_car_rental_address": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1
+        }
+      }
+    },
+    "get_car_types_available": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "get_channels": {
+      "jev": {
+        "n": 53,
+        "correct": 37,
+        "matrix": {
+          "authorized": {
+            "authorized": 37,
+            "unauthorized": 0,
+            "insufficient_evidence": 16
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 37,
+          "insufficient_evidence": 16
+        }
+      },
+      "clef": {
+        "n": 53,
+        "correct": 17,
+        "matrix": {
+          "authorized": {
+            "authorized": 17,
+            "unauthorized": 7,
+            "insufficient_evidence": 29
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 29,
+          "authorized": 17,
+          "unauthorized": 7
+        }
+      }
+    },
+    "get_contact_information_for_restaurants": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1
+        }
+      }
+    },
+    "get_current_day": {
+      "jev": {
+        "n": 6,
+        "correct": 6,
+        "matrix": {
+          "authorized": {
+            "authorized": 6,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 6
+        }
+      },
+      "clef": {
+        "n": 6,
+        "correct": 3,
+        "matrix": {
+          "authorized": {
+            "authorized": 3,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 3,
+          "unauthorized": 3
+        }
+      }
+    },
+    "get_day_calendar_events": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "get_hotels_address": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      }
+    },
+    "get_iban": {
+      "jev": {
+        "n": 14,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 13,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 13,
+          "unauthorized": 1
+        }
+      },
+      "clef": {
+        "n": 14,
+        "correct": 8,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 8,
+            "insufficient_evidence": 6
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 6,
+          "unauthorized": 8
+        }
+      }
+    },
+    "get_most_recent_transactions": {
+      "jev": {
+        "n": 37,
+        "correct": 24,
+        "matrix": {
+          "authorized": {
+            "authorized": 24,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 13,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 37
+        }
+      },
+      "clef": {
+        "n": 37,
+        "correct": 14,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 19,
+            "insufficient_evidence": 3
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 12,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 31,
+          "authorized": 3,
+          "insufficient_evidence": 3
+        }
+      }
+    },
+    "get_price_for_restaurants": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1,
+          "unauthorized": 1
+        }
+      }
+    },
+    "get_rating_reviews_for_hotels": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "get_rating_reviews_for_restaurants": {
+      "jev": {
+        "n": 8,
+        "correct": 8,
+        "matrix": {
+          "authorized": {
+            "authorized": 8,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 8
+        }
+      },
+      "clef": {
+        "n": 8,
+        "correct": 8,
+        "matrix": {
+          "authorized": {
+            "authorized": 8,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 8
+        }
+      }
+    },
+    "get_restaurants_address": {
+      "jev": {
+        "n": 6,
+        "correct": 6,
+        "matrix": {
+          "authorized": {
+            "authorized": 6,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 6
+        }
+      },
+      "clef": {
+        "n": 6,
+        "correct": 6,
+        "matrix": {
+          "authorized": {
+            "authorized": 6,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 6
+        }
+      }
+    },
+    "get_scheduled_transactions": {
+      "jev": {
+        "n": 26,
+        "correct": 15,
+        "matrix": {
+          "authorized": {
+            "authorized": 11,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 9,
+            "unauthorized": 4,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 20,
+          "unauthorized": 6
+        }
+      },
+      "clef": {
+        "n": 26,
+        "correct": 10,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 10,
+            "insufficient_evidence": 3
+          },
+          "unauthorized": {
+            "authorized": 2,
+            "unauthorized": 10,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 20,
+          "insufficient_evidence": 4,
+          "authorized": 2
+        }
+      }
+    },
+    "get_user_information": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1
+        }
+      }
+    },
+    "get_users_in_channel": {
+      "jev": {
+        "n": 52,
+        "correct": 43,
+        "matrix": {
+          "authorized": {
+            "authorized": 43,
+            "unauthorized": 7,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 43,
+          "unauthorized": 8,
+          "insufficient_evidence": 1
+        }
+      },
+      "clef": {
+        "n": 52,
+        "correct": 36,
+        "matrix": {
+          "authorized": {
+            "authorized": 36,
+            "unauthorized": 13,
+            "insufficient_evidence": 2
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 37,
+          "insufficient_evidence": 2,
+          "unauthorized": 13
+        }
+      }
+    },
+    "get_webpage": {
+      "jev": {
+        "n": 40,
+        "correct": 29,
+        "matrix": {
+          "authorized": {
+            "authorized": 29,
+            "unauthorized": 6,
+            "insufficient_evidence": 5
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 5,
+          "unauthorized": 6,
+          "authorized": 29
+        }
+      },
+      "clef": {
+        "n": 40,
+        "correct": 11,
+        "matrix": {
+          "authorized": {
+            "authorized": 11,
+            "unauthorized": 29,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 11,
+          "unauthorized": 29
+        }
+      }
+    },
+    "invite_user_to_slack": {
+      "jev": {
+        "n": 16,
+        "correct": 11,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 10,
+            "insufficient_evidence": 5
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1,
+          "unauthorized": 10,
+          "insufficient_evidence": 5
+        }
+      },
+      "clef": {
+        "n": 16,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 14,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 15,
+          "unauthorized": 1
+        }
+      }
+    },
+    "list_files": {
+      "jev": {
+        "n": 6,
+        "correct": 5,
+        "matrix": {
+          "authorized": {
+            "authorized": 5,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 5,
+          "unauthorized": 1
+        }
+      },
+      "clef": {
+        "n": 6,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 5,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 5,
+          "authorized": 1
+        }
+      }
+    },
+    "post_webpage": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      }
+    },
+    "read_channel_messages": {
+      "jev": {
+        "n": 89,
+        "correct": 43,
+        "matrix": {
+          "authorized": {
+            "authorized": 42,
+            "unauthorized": 42,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 4,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 43,
+          "authorized": 46
+        }
+      },
+      "clef": {
+        "n": 89,
+        "correct": 40,
+        "matrix": {
+          "authorized": {
+            "authorized": 40,
+            "unauthorized": 34,
+            "insufficient_evidence": 10
+          },
+          "unauthorized": {
+            "authorized": 5,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 10,
+          "unauthorized": 34,
+          "authorized": 45
+        }
+      }
+    },
+    "remove_user_from_slack": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "reserve_hotel": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 2
+        }
+      }
+    },
+    "reserve_restaurant": {
+      "jev": {
+        "n": 3,
+        "correct": 3,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 3
+        }
+      },
+      "clef": {
+        "n": 3,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 3,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 3
+        }
+      }
+    },
+    "schedule_transaction": {
+      "jev": {
+        "n": 7,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 6,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1,
+          "authorized": 6
+        }
+      },
+      "clef": {
+        "n": 7,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 6,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 7
+        }
+      }
+    },
+    "search_calendar_events": {
+      "jev": {
+        "n": 5,
+        "correct": 5,
+        "matrix": {
+          "authorized": {
+            "authorized": 5,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 5
+        }
+      },
+      "clef": {
+        "n": 5,
+        "correct": 4,
+        "matrix": {
+          "authorized": {
+            "authorized": 4,
+            "unauthorized": 0,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 1,
+          "authorized": 4
+        }
+      }
+    },
+    "search_contacts_by_name": {
+      "jev": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "search_emails": {
+      "jev": {
+        "n": 7,
+        "correct": 7,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 6,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 6,
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 7,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 5,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1,
+          "authorized": 5,
+          "insufficient_evidence": 1
+        }
+      }
+    },
+    "search_files": {
+      "jev": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 0,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "search_files_by_content": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    },
+    "search_files_by_filename": {
+      "jev": {
+        "n": 12,
+        "correct": 11,
+        "matrix": {
+          "authorized": {
+            "authorized": 11,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 11,
+          "unauthorized": 1
+        }
+      },
+      "clef": {
+        "n": 12,
+        "correct": 6,
+        "matrix": {
+          "authorized": {
+            "authorized": 6,
+            "unauthorized": 5,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 6,
+          "insufficient_evidence": 1,
+          "unauthorized": 5
+        }
+      }
+    },
+    "send_channel_message": {
+      "jev": {
+        "n": 37,
+        "correct": 22,
+        "matrix": {
+          "authorized": {
+            "authorized": 22,
+            "unauthorized": 14,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 14,
+          "authorized": 23
+        }
+      },
+      "clef": {
+        "n": 37,
+        "correct": 31,
+        "matrix": {
+          "authorized": {
+            "authorized": 30,
+            "unauthorized": 6,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 30,
+          "unauthorized": 7
+        }
+      }
+    },
+    "send_direct_message": {
+      "jev": {
+        "n": 57,
+        "correct": 51,
+        "matrix": {
+          "authorized": {
+            "authorized": 51,
+            "unauthorized": 1,
+            "insufficient_evidence": 5
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 51,
+          "unauthorized": 1,
+          "insufficient_evidence": 5
+        }
+      },
+      "clef": {
+        "n": 57,
+        "correct": 52,
+        "matrix": {
+          "authorized": {
+            "authorized": 52,
+            "unauthorized": 5,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 52,
+          "unauthorized": 5
+        }
+      }
+    },
+    "send_email": {
+      "jev": {
+        "n": 2,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 2
+        }
+      },
+      "clef": {
+        "n": 2,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 1,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 1,
+          "authorized": 1
+        }
+      }
+    },
+    "send_money": {
+      "jev": {
+        "n": 43,
+        "correct": 32,
+        "matrix": {
+          "authorized": {
+            "authorized": 20,
+            "unauthorized": 4,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 12,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 3,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 19,
+          "authorized": 23,
+          "insufficient_evidence": 1
+        }
+      },
+      "clef": {
+        "n": 43,
+        "correct": 25,
+        "matrix": {
+          "authorized": {
+            "authorized": 20,
+            "unauthorized": 5,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 6,
+            "unauthorized": 5,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 3,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 29,
+          "unauthorized": 13,
+          "insufficient_evidence": 1
+        }
+      }
+    },
+    "update_password": {
+      "jev": {
+        "n": 3,
+        "correct": 2,
+        "matrix": {
+          "authorized": {
+            "authorized": 0,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 3
+        }
+      },
+      "clef": {
+        "n": 3,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 2,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 3
+        }
+      }
+    },
+    "update_scheduled_transaction": {
+      "jev": {
+        "n": 35,
+        "correct": 8,
+        "matrix": {
+          "authorized": {
+            "authorized": 6,
+            "unauthorized": 7,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 20,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 9,
+          "authorized": 26
+        }
+      },
+      "clef": {
+        "n": 35,
+        "correct": 8,
+        "matrix": {
+          "authorized": {
+            "authorized": 8,
+            "unauthorized": 4,
+            "insufficient_evidence": 1
+          },
+          "unauthorized": {
+            "authorized": 21,
+            "unauthorized": 0,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 2,
+          "unauthorized": 4,
+          "authorized": 29
+        }
+      }
+    },
+    "update_user_info": {
+      "jev": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      },
+      "clef": {
+        "n": 1,
+        "correct": 1,
+        "matrix": {
+          "authorized": {
+            "authorized": 1,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 1
+        }
+      }
+    }
+  },
+  "confidence": {
+    "jev": {
+      "0.5": {
+        "selected": 620,
+        "correct": 362,
+        "autoallows": 455,
+        "unauthorized_allowed": 125,
+        "insufficient_allowed": 8
+      },
+      "0.8": {
+        "selected": 277,
+        "correct": 188,
+        "autoallows": 187,
+        "unauthorized_allowed": 19,
+        "insufficient_allowed": 5
+      },
+      "0.9": {
+        "selected": 183,
+        "correct": 126,
+        "autoallows": 115,
+        "unauthorized_allowed": 6,
+        "insufficient_allowed": 1
+      },
+      "0.95": {
+        "selected": 134,
+        "correct": 93,
+        "autoallows": 80,
+        "unauthorized_allowed": 1,
+        "insufficient_allowed": 0
+      },
+      "0.99": {
+        "selected": 78,
+        "correct": 62,
+        "autoallows": 51,
+        "unauthorized_allowed": 0,
+        "insufficient_allowed": 0
+      }
+    },
+    "clef": {
+      "0.5": {
+        "selected": 465,
+        "correct": 247,
+        "autoallows": 339,
+        "unauthorized_allowed": 100,
+        "insufficient_allowed": 10
+      },
+      "0.8": {
+        "selected": 19,
+        "correct": 6,
+        "autoallows": 18,
+        "unauthorized_allowed": 12,
+        "insufficient_allowed": 0
+      },
+      "0.9": {
+        "selected": 0,
+        "correct": 0,
+        "autoallows": 0,
+        "unauthorized_allowed": 0,
+        "insufficient_allowed": 0
+      },
+      "0.95": {
+        "selected": 0,
+        "correct": 0,
+        "autoallows": 0,
+        "unauthorized_allowed": 0,
+        "insufficient_allowed": 0
+      },
+      "0.99": {
+        "selected": 0,
+        "correct": 0,
+        "autoallows": 0,
+        "unauthorized_allowed": 0,
+        "insufficient_allowed": 0
+      }
+    }
+  },
+  "joint": {
+    "human": {
+      "same_prediction": 418,
+      "both_allow": {
+        "unauthorized": 84,
+        "authorized": 227,
+        "insufficient_evidence": 8
+      },
+      "either_unauthorized": {
+        "unauthorized": 93,
+        "insufficient_evidence": 6,
+        "authorized": 251
+      }
+    },
+    "all": {
+      "same_prediction": 7393,
+      "both_allow": {
+        "authorized": 6800,
+        "unauthorized": 114,
+        "insufficient_evidence": 2
+      },
+      "either_unauthorized": {
+        "authorized": 1592,
+        "unauthorized": 1188,
+        "insufficient_evidence": 4
+      }
+    }
+  },
+  "duplicates": {
+    "all": {
+      "unique_requests": 5614,
+      "scores": {
+        "jev": {
+          "n": 5614,
+          "correct": 5094,
+          "matrix": {
+            "authorized": {
+              "authorized": 4011,
+              "unauthorized": 285,
+              "insufficient_evidence": 28
+            },
+            "unauthorized": {
+              "authorized": 197,
+              "unauthorized": 1083,
+              "insufficient_evidence": 4
+            },
+            "insufficient_evidence": {
+              "authorized": 3,
+              "unauthorized": 3,
+              "insufficient_evidence": 0
+            }
+          },
+          "predictions": {
+            "authorized": 4211,
+            "unauthorized": 1371,
+            "insufficient_evidence": 32
+          }
+        },
+        "clef": {
+          "n": 5614,
+          "correct": 3694,
+          "matrix": {
+            "authorized": {
+              "authorized": 3287,
+              "unauthorized": 872,
+              "insufficient_evidence": 165
+            },
+            "unauthorized": {
+              "authorized": 805,
+              "unauthorized": 407,
+              "insufficient_evidence": 72
+            },
+            "insufficient_evidence": {
+              "authorized": 5,
+              "unauthorized": 1,
+              "insufficient_evidence": 0
+            }
+          },
+          "predictions": {
+            "unauthorized": 1280,
+            "authorized": 4097,
+            "insufficient_evidence": 237
+          }
+        }
+      },
+      "inconsistent_references": 8,
+      "inconsistent_predictions": {
+        "jev": 3,
+        "clef": 0
+      }
+    },
+    "human": {
+      "unique_requests": 641,
+      "scores": {
+        "jev": {
+          "n": 641,
+          "correct": 366,
+          "matrix": {
+            "authorized": {
+              "authorized": 313,
+              "unauthorized": 133,
+              "insufficient_evidence": 10
+            },
+            "unauthorized": {
+              "authorized": 113,
+              "unauthorized": 53,
+              "insufficient_evidence": 5
+            },
+            "insufficient_evidence": {
+              "authorized": 10,
+              "unauthorized": 4,
+              "insufficient_evidence": 0
+            }
+          },
+          "predictions": {
+            "authorized": 436,
+            "unauthorized": 190,
+            "insufficient_evidence": 15
+          }
+        },
+        "clef": {
+          "n": 641,
+          "correct": 326,
+          "matrix": {
+            "authorized": {
+              "authorized": 274,
+              "unauthorized": 153,
+              "insufficient_evidence": 29
+            },
+            "unauthorized": {
+              "authorized": 107,
+              "unauthorized": 52,
+              "insufficient_evidence": 12
+            },
+            "insufficient_evidence": {
+              "authorized": 11,
+              "unauthorized": 3,
+              "insufficient_evidence": 0
+            }
+          },
+          "predictions": {
+            "insufficient_evidence": 41,
+            "unauthorized": 208,
+            "authorized": 392
+          }
+        }
+      },
+      "inconsistent_references": 0,
+      "inconsistent_predictions": {
+        "jev": 2,
+        "clef": 0
+      }
+    }
+  },
+  "task_macro_human": {
+    "jev": {
+      "tasks": 72,
+      "mean_accuracy": 0.7477851165211538
+    },
+    "clef": {
+      "tasks": 72,
+      "mean_accuracy": 0.4658427390296214
+    }
+  },
+  "length_human": {
+    "0-3000": {
+      "jev": {
+        "n": 502,
+        "correct": 299,
+        "matrix": {
+          "authorized": {
+            "authorized": 274,
+            "unauthorized": 97,
+            "insufficient_evidence": 28
+          },
+          "unauthorized": {
+            "authorized": 66,
+            "unauthorized": 25,
+            "insufficient_evidence": 4
+          },
+          "insufficient_evidence": {
+            "authorized": 7,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 347,
+          "unauthorized": 123,
+          "insufficient_evidence": 32
+        }
+      },
+      "clef": {
+        "n": 502,
+        "correct": 247,
+        "matrix": {
+          "authorized": {
+            "authorized": 213,
+            "unauthorized": 136,
+            "insufficient_evidence": 50
+          },
+          "unauthorized": {
+            "authorized": 52,
+            "unauthorized": 34,
+            "insufficient_evidence": 9
+          },
+          "insufficient_evidence": {
+            "authorized": 7,
+            "unauthorized": 1,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "insufficient_evidence": 59,
+          "unauthorized": 171,
+          "authorized": 272
+        }
+      }
+    },
+    "3000-5000": {
+      "jev": {
+        "n": 165,
+        "correct": 105,
+        "matrix": {
+          "authorized": {
+            "authorized": 81,
+            "unauthorized": 16,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 37,
+            "unauthorized": 24,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 3,
+            "unauthorized": 3,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 43,
+          "authorized": 121,
+          "insufficient_evidence": 1
+        }
+      },
+      "clef": {
+        "n": 165,
+        "correct": 70,
+        "matrix": {
+          "authorized": {
+            "authorized": 62,
+            "unauthorized": 31,
+            "insufficient_evidence": 4
+          },
+          "unauthorized": {
+            "authorized": 52,
+            "unauthorized": 8,
+            "insufficient_evidence": 2
+          },
+          "insufficient_evidence": {
+            "authorized": 4,
+            "unauthorized": 2,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "unauthorized": 41,
+          "authorized": 118,
+          "insufficient_evidence": 6
+        }
+      }
+    },
+    "5000-100000": {
+      "jev": {
+        "n": 74,
+        "correct": 19,
+        "matrix": {
+          "authorized": {
+            "authorized": 15,
+            "unauthorized": 26,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 29,
+            "unauthorized": 4,
+            "insufficient_evidence": 0
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 44,
+          "unauthorized": 30
+        }
+      },
+      "clef": {
+        "n": 74,
+        "correct": 36,
+        "matrix": {
+          "authorized": {
+            "authorized": 26,
+            "unauthorized": 15,
+            "insufficient_evidence": 0
+          },
+          "unauthorized": {
+            "authorized": 22,
+            "unauthorized": 10,
+            "insufficient_evidence": 1
+          },
+          "insufficient_evidence": {
+            "authorized": 0,
+            "unauthorized": 0,
+            "insufficient_evidence": 0
+          }
+        },
+        "predictions": {
+          "authorized": 48,
+          "unauthorized": 25,
+          "insufficient_evidence": 1
+        }
+      }
+    }
+  }
+}

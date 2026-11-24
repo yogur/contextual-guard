@@ -1,0 +1,203 @@
+{
+  "dataset_version": "v1",
+  "records": 10357,
+  "labelled_dataset_sha256": "c92191ff4a2378563e4ac991b07fba66f9cb55f539ac2c5e081deb1aadb7d87f",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 907,
+      "sha256": "be57d1d4f18d901602815898555e808140b19b803c59e119e7a7ad29c58a71e4"
+    },
+    {
+      "path": "analysis/additional.json",
+      "size": 9314,
+      "sha256": "2f5b8cfebc249d73e415a1c00f9ce5c84520ee2cd0060f8cf109761fd71f7150",
+      "original_path": "data/milestone8-analysis-2026-10-31/additional.json"
+    },
+    {
+      "path": "analysis/benchmark-interpretation-counts.json",
+      "size": 2988,
+      "sha256": "4b8ec33a29eb3aaa20b4057e0206bf1433896f2e9728661e440ba471966ff8c0",
+      "original_path": "data/milestone8-analysis-2026-10-31/benchmark-interpretation-counts.json"
+    },
+    {
+      "path": "analysis/case-studies.json",
+      "size": 218195,
+      "sha256": "55f276dfbc0a77a4231295a8bddf8be326aafde580013f6651d213aebf1c7cce",
+      "original_path": "data/milestone8-analysis-2026-10-31/case-studies.json"
+    },
+    {
+      "path": "analysis/examples.json",
+      "size": 419613,
+      "sha256": "7911952fb9f8d39ca0585c07188fdfe09dca7ec7c31c73c9c38e1ececb763689",
+      "original_path": "data/milestone8-analysis-2026-10-31/examples.json"
+    },
+    {
+      "path": "analysis/statistics.json",
+      "size": 83663,
+      "sha256": "97c046249ecafc8a48fa44ad3c2fe7e890060fcad5f0fa5b24132d16738c4aca",
+      "original_path": "data/milestone8-analysis-2026-10-31/statistics.json"
+    },
+    {
+      "path": "annotation-report.json",
+      "size": 46597,
+      "sha256": "acde344118011d4b0da7b89fdd720075460fa2fe7253ec67e7005b70d031d64e",
+      "original_path": "data/milestone7-human-reviewed-2026-10-28/annotation-report.json"
+    },
+    {
+      "path": "cost-supplement.json",
+      "size": 1720,
+      "sha256": "ad78e36bb02e476b68d6b8f48c0b641b60dddb40a0c2a9d37d19ef4e8628033d",
+      "original_path": "data/milestone7-human-reviewed-2026-10-28/cost-supplement.json"
+    },
+    {
+      "path": "dataset.jsonl",
+      "size": 260737630,
+      "sha256": "c92191ff4a2378563e4ac991b07fba66f9cb55f539ac2c5e081deb1aadb7d87f",
+      "original_path": "data/milestone7-human-reviewed-2026-10-28/dataset.jsonl"
+    },
+    {
+      "path": "human-reviews.json",
+      "size": 903334,
+      "sha256": "e4e46a2bfecc35ba9aadb9f66f5feb3f403d4f8644459d6c565b6022483bb765",
+      "original_path": "data/milestone7-human-reviewed-2026-10-28/human-reviews.json"
+    },
+    {
+      "path": "runs/clef/benchmark.json",
+      "size": 676972,
+      "sha256": "8723365aec2bc099bf4eaa2fe2ad0e20eaa17ed92cfe5cad95aef44a57d55258",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/clef/benchmark.json"
+    },
+    {
+      "path": "runs/clef/report.json",
+      "size": 1557532,
+      "sha256": "0979a5c11c9ef009335b26f4dae39c6c4d0e1d639ab409cf0afa588e2fa6cd6f",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/clef/report.json"
+    },
+    {
+      "path": "runs/clef/report.md",
+      "size": 12451,
+      "sha256": "00fb0968b8478ac5dec80ea818a4b3073d0e11d3bdd0fdeb42baa1c5123a0f08",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/clef/report.md"
+    },
+    {
+      "path": "runs/clef/reviewed-cohorts.json",
+      "size": 678686,
+      "sha256": "bfbe0b87fbc5cd41a902a865471d7229607115c1f559e91a46ac81ae03872b94",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/clef/reviewed-cohorts.json"
+    },
+    {
+      "path": "runs/clef/reviewed-cohorts.md",
+      "size": 552,
+      "sha256": "6c1bda9509463903945995d9db87f40931060a395e4b033ca5ed8dfc01cd7ab2",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/clef/reviewed-cohorts.md"
+    },
+    {
+      "path": "runs/clef/verdicts.jsonl",
+      "size": 11929341,
+      "sha256": "9545f49669f773565acb39ee9f06b6dd83f7010200931203871d76f97882db1c",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/clef/verdicts.jsonl"
+    },
+    {
+      "path": "runs/comparison/comparison.json",
+      "size": 1722068,
+      "sha256": "6912a0927b554c8fb81107aeb061d7cb7ce83d4fd01542da89dfa6247c121805",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/comparison/comparison.json"
+    },
+    {
+      "path": "runs/comparison/comparison.md",
+      "size": 17386,
+      "sha256": "b33162d3a5ee545e4f3d7ee5e577901e635963c7dc2cff097f6d5a9bed956d85",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/comparison/comparison.md"
+    },
+    {
+      "path": "runs/comparison/reviewed-cohorts.json",
+      "size": 682058,
+      "sha256": "872cc0c26900fe1f017e36f36e606a62c5a0b169bb6f55c43923c08588f4972d",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/comparison/reviewed-cohorts.json"
+    },
+    {
+      "path": "runs/comparison/reviewed-cohorts.md",
+      "size": 796,
+      "sha256": "b91e3a16d939306b7597cf7d15b07490c7cb5e5150b919ed2193fe4937550ca3",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/comparison/reviewed-cohorts.md"
+    },
+    {
+      "path": "runs/jev/benchmark.json",
+      "size": 676122,
+      "sha256": "a6d2745340b6ed7ac033449b11826c12bc8d283875282dca619cda03cdcbaf85",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev/benchmark.json"
+    },
+    {
+      "path": "runs/jev/report.json",
+      "size": 1555556,
+      "sha256": "c3ba19d555b0e66e1ca5a8f2f2b468fa12522274a5cf54a5992c1c02f0838453",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev/report.json"
+    },
+    {
+      "path": "runs/jev/report.md",
+      "size": 12042,
+      "sha256": "e646d92c0c6c172938ea5a581618b1b28a10695160da8a0d532a4a6ba8714578",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev/report.md"
+    },
+    {
+      "path": "runs/jev/reviewed-cohorts.json",
+      "size": 678668,
+      "sha256": "19944de0e0c94828e19cca03e4f662a5c3bc408fb31d40d338e8a0b9f0702fab",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev/reviewed-cohorts.json"
+    },
+    {
+      "path": "runs/jev/reviewed-cohorts.md",
+      "size": 549,
+      "sha256": "6c2204064c9c4480a25c7499925e89cfcf0ec00d6d35465ef733a78003a68a64",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev/reviewed-cohorts.md"
+    },
+    {
+      "path": "runs/jev/verdicts.jsonl",
+      "size": 9020648,
+      "sha256": "569df163a891fa7cf4d806a3e79aa8cecb977dfc8f49b5504118e5a804f1d202",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev/verdicts.jsonl"
+    },
+    {
+      "path": "runs/retry/attempt.json",
+      "size": 827,
+      "sha256": "00341c5f4a9d3e26c11f72ab9f00438dc3192eb219c44c48130cf449e4eeec2b",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev-retry-2026-10-31/attempt.json"
+    },
+    {
+      "path": "runs/retry/original-failure.jsonl",
+      "size": 872,
+      "sha256": "145545845faa545784619cf224ce59537c9ab0783ee903a777328b6c412503be",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev-retry-2026-10-31/original-failure.jsonl"
+    },
+    {
+      "path": "runs/retry/verdicts-before.jsonl",
+      "size": 9020292,
+      "sha256": "55070241350c8dec44d56872cb44beb8d20be02f5536967871487e0d089a1587",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/jev-retry-2026-10-31/verdicts-before.jsonl"
+    },
+    {
+      "path": "runs/settings/guard-v1.json",
+      "size": 1532,
+      "sha256": "4df68a2ce1ea21185ce2e276a8120c062f6ee5d04043d1cceb88d6950ecb94ad",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/settings/guard-v1.json"
+    },
+    {
+      "path": "runs/settings/guards.toml",
+      "size": 665,
+      "sha256": "df0731000d85cf58bab56566f55f61856d64a8049cbb43e4488a9e3fb941a348",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/settings/guards.toml"
+    },
+    {
+      "path": "runs/setup.json",
+      "size": 3664,
+      "sha256": "4929928a074fb40569a9b42634d7be1c49d3af2a793701b921d397ef459bc73a",
+      "original_path": "data/milestone8-full-2026-10-29-ctx18k-gpu/setup.json"
+    },
+    {
+      "path": "verification.json",
+      "size": 407,
+      "sha256": "9b006c6aa81244b52f239c74049a98b9d2efe71f0abb5ae4b15906d12484cc39"
+    }
+  ]
+}

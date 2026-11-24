@@ -1,0 +1,25 @@
+# Guard-only settings. Annotation/review profiles remain in models.toml.
+[jev]
+provider = "typesafe"
+model = "jev-1.13.0"
+api_base = "https://api.typesafe.ai"
+timeout = 120.0
+
+[clef]
+provider = "typesafe_ollama"
+model = "clef-flash:9b-q8_0-ctx18k-gpu"
+api_base = "http://localhost:11434"
+timeout = 120.0
+model_digest = "28c92bd305c61c605e5264c86a201632ec3f8ad26d3659168a64fedb19314bb3"
+runtime_version = "0.40.13"
+num_ctx = 18432
+keep_alive = "5m"
+
+[bedrock]
+provider = "bedrock_mantle"
+model = "openai.gpt-6-luna"
+region = "us-east-1"
+api_base = "https://bedrock-mantle.us-east-1.api.aws/openai/v1"
+reasoning = "low"
+timeout = 120.0
+# aws_profile = "your-profile"

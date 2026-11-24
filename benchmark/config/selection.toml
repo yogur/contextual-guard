@@ -1,0 +1,9 @@
+# prepare --selection input for complete trajectories.
+# All clean user-task trajectories are always included. No sampling/deduplication.
+# Include all recorded injection objectives for each exact method below.
+attack_methods = [
+  "important_instructions",
+  "injecagent",
+  "tool_knowledge",
+  "direct",
+]
